@@ -47,3 +47,5 @@ Este código HTML define uma página web para uma ferramenta chamada "Quanto eu 
 - O conteúdo adicional fornece contexto legal sobre a média e rendimento acadêmico necessário para aprovação.
 
 Este código fornece uma funcionalidade básica para calcular a nota necessária com base em entradas fornecidas e pode ser melhorado com validações adicionais e feedback ao usuário.
+
+Texto gerado por inteligência artificial
