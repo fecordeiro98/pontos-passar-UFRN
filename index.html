@@ -8,37 +8,41 @@
 </head>
 <body>
     <main>
-        <div>
-            <table>
-                <tr>
-                    <td>Nota 1:</td>
-                    <td><input type="number" name="" id="n1" min="0" max="10" step="0.1"></td>
-                </tr>
-                <tr>
-                    <td>Nota 2:</td>
-                    <td><input type="number" name="" id="n2" min="0" max="10" step="0.1"></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td class="central"><button onclick="calcular()">Calcular</button></td>
-                </tr>
-                <tr>
-                    <td>Precisa de:</td>
-                    <td><input type="text" name="" id="resultado" disabled></td>
-                </tr>
-            </table>
-        </div>
-        <div>
-            <p><strong>Art. 114</strong> É considerado aprovado, quanto à avaliação do rendimento acadêmico, o estudante que tem média parcial igual ou superior a 6,0 (seis), com rendimento acadêmico igual ou superior a 4,0 (quatro) em todas as unidades.</p>
-        </div>
+        <section>
+            <div>
+                <table>
+                    <tr>
+                        <td>Nota 1:</td>
+                        <td><input type="number" name="" id="n1" min="0" max="10" step="0.1"></td>
+                    </tr>
+                    <tr>
+                        <td>Nota 2:</td>
+                        <td><input type="number" name="" id="n2" min="0" max="10" step="0.1"></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td class="central"><button onclick="calcular()">Calcular</button></td>
+                    </tr>
+                    <tr>
+                        <td>Precisa de:</td>
+                        <td><input type="text" name="" id="resultado" disabled></td>
+                    </tr>
+                </table>
+            </div>
+            <div>
+                <p id="texto">
+                    <!-- Preenchido com JavaScript -->
+                </p>
+            </div>
+        </section>
     </main>
     <footer>
         <div>
             <span>&copy; Felipe Cordeiro</span><br>
             <span>Agosto de 2024</span><br>
-            <span>v 2.1</span>
+            <span>v 3.0</span>
         </div>
-        <div id="espacador"></div>
+        <div class="espacador"></div>
         <div>
             <span>Outros projetos:</span><br>
             <a href="https://reposicao-ufrn.vercel.app/">Calculadora de reposição</a>
