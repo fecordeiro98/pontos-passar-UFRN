@@ -9,7 +9,6 @@ function calcular() {
     if (n1 < 4 || n2 < 4) {
         texto.textContent = 'Uma das notas é menor do que 4, o estudante irá para a reposição!';
         texto.style.color = 'orange';
-        texto.style.fontWeight = 'bold';
         document.getElementById('resultado').value = resultado.toFixed(1);
         return;
     }
@@ -18,7 +17,6 @@ function calcular() {
         document.getElementById('resultado').value = 4;
         texto.textContent = 'O estudante precisa de menos de 4 pontos, mas precisa tirar pelo menos 4 pontos para não ir para a reposição!';
         texto.style.color = '#164194';
-        texto.style.fontWeight = 'bold';
     } else {
         document.getElementById('resultado').value = resultado.toFixed(1);
         texto.textContent = '';
